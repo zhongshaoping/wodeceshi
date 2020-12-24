@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       class obj{
+           constructor(){
+                this.name="shie";
+                this.age=15;
+                this.getName=function(){
+                    return this.name
+                }
+           }
+           title="545"
+           tess=function(){
+               console.log("这是一个测试")
+           }
+       }
+    class obj1 extends obj{
+        constructor(){
+            super()
+        }
+        hie="zhee"
+    }
+    let o=new obj1()
+    console.log(o);
+    let m=new obj();
+    console.log(m)
+    </script>
+</body>
+</html>
